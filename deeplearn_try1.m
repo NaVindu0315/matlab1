@@ -23,9 +23,19 @@ pic10 = imresize(pic10,[227,227]);
 pic11 = imresize(pic11,[227,227]);
 
 label1 = classify(nnet,pic1);
+label2 = classify(nnet,pic2);
+label3 = classify(nnet,pic3);
+label4 = classify(nnet,pic4);
+label5 = classify(nnet,pic5);
+label6 = classify(nnet,pic6);
+label7 = classify(nnet,pic7);
+label8 = classify(nnet,pic8);
+label9 = classify(nnet,pic9);
+label10 = classify(nnet,pic10);
+label11 = classify(nnet,pic11);
 
-image(pic1);
-title(char(label1));
+image(pic7);
+title(char(label7));
 drawnow;
 
 
